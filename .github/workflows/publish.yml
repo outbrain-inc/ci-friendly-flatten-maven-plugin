@@ -3,5 +3,5 @@ on:
 
 jobs:
   build:
-    uses: outbrain/.github/.github/workflows/publish-to-maven-central.yaml@main
+    uses: outbrain-inc/.github/.github/workflows/publish-to-maven-central.yaml@main
     secrets: inherit
