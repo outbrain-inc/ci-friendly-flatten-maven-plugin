@@ -113,3 +113,4 @@ Same as above, just use `mvn clean deploy -Drevision=<VERSION>`
       - Step #4 - (Maven step) Tag the current commit with the updated version and push the tag
       
           `mvn ci-friendly-flatten:scmTag -Drevision=%system.version%`        
+test
